@@ -1,11 +1,15 @@
-let result = "";
+let string = "";
 
 function printNumbers(n) {
-  for (let i = 0; i < n; i++) {
-    result = +1;
+  for (let i = 1; i <= n; i++) {
+    string += i;
+
+    if (i < n) {
+      string += " ";
+    }
   }
 
-  return result;
+  return string;
 }
 
 export default printNumbers;
