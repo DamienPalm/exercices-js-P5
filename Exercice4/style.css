@@ -1,6 +1,6 @@
 header {
     background-color: #FFCC99;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px 0px;
 }
 
 h1 {
@@ -27,5 +27,5 @@ section {
 footer {
     background-color: #99CC99;
     border: 1px solid #ccc;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px 0px;
 }
